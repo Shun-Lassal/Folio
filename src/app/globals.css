@@ -2,32 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'PoetsenOne-Regular';
+  src: url('/PoetsenOne-Regular.ttf') format('truetype');
+  /* Si vous avez d'autres formats, ajoutez-les ici */
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: gray;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/*
+.bg-seemless {
+  background-image: url("./../../public/pleats-denim.jpg");
+  background-repeat: repeat;
+  background-size:23.3vmax;
+  background-position: 0 0;
+  animation: moveLeft 10s linear infinite;
+}*/
+
+.font-poet {
+  font-family: 'PoetsenOne-Regular', sans-serif; /* Assurez-vous de mettre une police de secours */
+}
+
+@keyframes moveLeft {
+  from {
+    background-position: 0 0; /* Position initiale */
+  }
+  to {
+    background-position: -100% 0; /* Déplacement vers la gauche */
   }
 }

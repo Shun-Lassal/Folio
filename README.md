@@ -1,3 +1,5 @@
+![Sans titre](https://github.com/Shun-Lassal/Folio/assets/71902856/f6923d10-9dc9-4852-9d29-0143e13b7ca0)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

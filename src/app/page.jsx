@@ -124,7 +124,7 @@ export default function Home() {
 
         </div>
         
-        <div className="flex-row h-screen h-[calc(100dvh)] overflow-y-scroll z-10" ref={scrollDivRef} >
+        <div className="h-screen h-[calc(100dvh)] w-full overflow-y-scroll z-10" ref={scrollDivRef} >
 
           <div className="space-x-4 m-8 text-white hover:text-gray-400 hidden">
             <i className="bi bi-arrow-left text-2xl" />

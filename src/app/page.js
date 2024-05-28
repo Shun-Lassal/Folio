@@ -350,7 +350,7 @@ export default function Home() {
             <h5 className="text-4xl font-bold border-b-2 pb-3 content-center w-fit mx-auto">Contact</h5>
             <div className="space-x-2 mt-14 border-b">
               <i className="bi bi-download text-3xl align-bottom"/>
-              <a className="text-2xl" href="/Shun-Lassal-CV-Iscod-Final_compressed.pdf">Téléchargez mon CV</a>
+              <a className="text-2xl" href="/Shun-Lassal-CV-Iscod-Final_compressed.pdf">Download my resume</a>
 
             </div>
             <div className="flex flex-col lg:flex-row items-center justify-evenly bg-gray-700 rounded-xl m-8 p-8 my-16 lg:space-x-8 space-y-4 lg:space-y-0 duration-500">

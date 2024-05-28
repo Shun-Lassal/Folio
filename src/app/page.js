@@ -348,25 +348,25 @@ export default function Home() {
 
           <div className="z-10 flex flex-col justify-start items-center bg-gray-600 pt-16 md:pr-24">
             <h5 className="text-4xl font-bold">Mes coordonnées</h5>
-            
+            <div className="space-x-2 mt-14 border-b">
+              <i className="bi bi-download text-3xl align-bottom"/>
+              <a className="text-2xl" href="/Shun-Lassal-CV-Iscod-Final_compressed.pdf">Téléchargez mon CV</a>
+
+            </div>
             <div className="flex flex-col lg:flex-row items-center justify-evenly bg-gray-700 rounded-xl m-8 p-8 my-16 lg:space-x-8 space-y-4 lg:space-y-0 duration-500">
               <img src="/pic_final.jpg" className="w-80 h-auto lg:w-fit lg:h-64 rounded-xl"/>
               <div className="bg-gray-600 flex flex-col justify-start items-start p-4 rounded-xl space-y-2">
                 <div className="space-x-2">
                   <i className="bi bi-person-arms-up text-3xl"/>
-                  <span className="text-2xl">Shun Lassal</span>
+                  <span className="text-2xl">Shun LASSAL</span>
                 </div>
                 <div className="space-x-2">
                   <i className="bi bi-github text-3xl"/>
-                  <span className="text-2xl">Github</span>
+                  <a href="https://github.com/Shun-Lassal" target="_blank" rel="noopener noreferrer" className="text-2xl">Github</a>
                 </div>
                 <div className="space-x-2">
                   <i className="bi bi-linkedin text-3xl"/>
-                  <span className="text-2xl">LinkedIn</span>
-                </div>
-                <div className="space-x-2">
-                  <i className="bi bi-discord text-3xl"/>
-                  <span className="text-2xl">lashoune</span>
+                  <a href="https://www.linkedin.com/in/shun-lassal-56a402217/" target="_blank" rel="noopener noreferrer" className="text-2xl">LinkedIn</a>
                 </div>
                 <div className="space-x-2">
                   <i className="bi bi-envelope text-3xl"/>

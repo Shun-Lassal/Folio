@@ -147,11 +147,11 @@ export default function Home() {
             <a href="https://www.youtube.com/watch?v=VAwPiYX6FJs" target="_blank" rel="noopener noreferrer" className="absolute bottom-0 right-0 text-white opacity-50 hover:opacity-100">Video made by Flurdeh</a>
           </div>
 
-          <div className="space-y-8 p-8 bg-gray-600 z-20 w-full md:pr-24 py-12">
-            <h1 className="text-4xl font-bold text-center">About me</h1>
-            <p className="py-8 text-center">Tombé dans la marmite des jeux vidéos depuis mon plus jeune âge, je me suis naturellement dirigé dans le développement informatique. Ayant pour ambition de développer des applications pour aider la vie des utilisateurs, j'ai aussi l'envie de développer mes propres jeux vidéos, comme les studios indépendants. </p>
+          <div className="space-y-8 p-8 bg-gray-600 z-20 w-full md:pr-24 py-12 ">
+            <h1 className="text-4xl font-bold text-center border-b-2 pb-3 content-center w-fit mx-auto">About me</h1>
+            <p className="py-8 text-center">Having been immersed in video games since a young age, I naturally gravitated towards software development. With the ambition of creating applications to improve users' lives, I also aspire to develop my own video games, much like independent studios.</p>
             <div className="flex flex-col items-center justify-start">
-              <h3 className="text-4xl font-bold border-b-2 pb-3 mb-8">Mes skills</h3>
+              <h3 className="text-4xl font-bold border-b-2 pb-3 mb-8">My Skills</h3>
             
             <div className="grid grid-rows lg:grid-cols-3 gap-8">
 
@@ -257,8 +257,8 @@ export default function Home() {
           </div>
 
           <div className="z-10 flex flex-col justify-start items-center bg-gray-700 md:pr-24 p-8"> 
-            <h4 className="text-4xl text-center my-14 font-bold">Mes articles de blog</h4>
-            <span className="text-center">N'hésitez pas à lire ce que je met en ligne de temps en temps. <br/> Voici mes derniers articles</span>
+            <h4 className="text-4xl text-center my-14 font-bold border-b-2 pb-3 content-center w-fit mx-auto">My Articles</h4>
+            <span className="text-center">Take a look at what I write in my spare time<br/>Here are my last articles</span>
             <div className="w-full grid lg:grid-cols-3 gap-4 place-items-center mt-12">
 
                 <div className="w-80 group relative h-52 bg-gray-700 flex flex-col justify-center items-start shadow-sm rounded-md border border-slate-600">
@@ -347,7 +347,7 @@ export default function Home() {
           </div>
 
           <div className="z-10 flex flex-col justify-start items-center bg-gray-600 pt-16 md:pr-24">
-            <h5 className="text-4xl font-bold">Mes coordonnées</h5>
+            <h5 className="text-4xl font-bold border-b-2 pb-3 content-center w-fit mx-auto">Contact</h5>
             <div className="space-x-2 mt-14 border-b">
               <i className="bi bi-download text-3xl align-bottom"/>
               <a className="text-2xl" href="/Shun-Lassal-CV-Iscod-Final_compressed.pdf">Téléchargez mon CV</a>

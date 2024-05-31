@@ -1,7 +1,10 @@
 'use client'
+import { useRouter } from "next/navigation";
 import { useState, useRef, useEffect } from "react";
 
 const SideBar = () => {
+
+  const router = useRouter();
 
   console.log("TEST")
   // CODE HOVER SIDEBAR ICONS

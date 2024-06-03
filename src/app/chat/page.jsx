@@ -17,9 +17,9 @@ export default function Chat() {
         <SideBar/>
         <div className="w-full h-full flex flex-col justify-start items-start pr-24 p-8">
 
-          <div className="flex-grow space-y-4 flex flex-col justify-start items-start h-full overflow-y-scroll">
+          <div className="flex-grow flex flex-col-reverse py-4 justify-start items-start h-full overflow-y-scroll ">
 
-            <div className="p-4 bg-gray-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2">
+            <div className="p-4 bg-gray-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 mt-4">
               <div className="flex flex-row justify-between items-center w-full">
                 <span className="text-lg font-bold">Jimmy:</span>
                 <span className="font-light">31 mai 2024 - 17:53</span>
@@ -27,7 +27,7 @@ export default function Chat() {
               <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur dignissimos similique ducimus officia possimus deserunt sed error sint repellat nemo qui, laborum distinctio vel ratione, vitae, molestias dolorem rerum?</span>
             </div>
 
-            <div className="p-4 bg-blue-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 self-end">
+            <div className="p-4 bg-blue-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 mt-4 self-end">
               <div className="flex flex-row justify-between items-center w-full">
                 <span className="text-lg font-bold">Moi:</span>
                 <span className="font-light">31 mai 2024 - 17:53</span>
@@ -35,7 +35,7 @@ export default function Chat() {
               <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
 
-            <div className="p-4 bg-blue-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 self-end">
+            <div className="p-4 bg-blue-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 mt-4 self-end">
               <div className="flex flex-row justify-between items-center w-full">
                 <span className="text-lg font-bold">Moi:</span>
                 <span className="font-light">31 mai 2024 - 17:53</span>
@@ -43,7 +43,7 @@ export default function Chat() {
               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolorem qui, similique molestias quasi consequatur sequi natus nostrum aut ipsam nulla corrupti quidem commodi modi. Eos est sunt asperiores eligendi?</span>
             </div>
 
-            <div className="p-4 bg-gray-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2">
+            <div className="p-4 bg-gray-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 mt-4">
               <div className="flex flex-row justify-between items-center w-full">
                 <span className="text-lg font-bold">Jimmy:</span>
                 <span className="font-light">31 mai 2024 - 17:53</span>
@@ -51,7 +51,7 @@ export default function Chat() {
               <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
             
-            <div className="p-4 bg-gray-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2">
+            <div className="p-4 bg-gray-400 bg-opacity-60 rounded-2xl w-fit flex flex-col items-start justify-start space-y-2 mt-4">
               <div className="flex flex-row justify-between items-center w-full space-x-4">
                 <span className="text-lg font-bold">Jimmy:</span>
                 <span className="font-light">31 mai 2024 - 17:53</span>

@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col justify-start items-center">
 
-      <div className="w-full h-screen absolute">
+      <div className="w-full h-screen absolute hidden md:block">
         <video muted autoPlay loop className="w-full h-full object-cover">
           <source src="/video.webm" type="video/webm" />
         </video>
@@ -138,8 +138,8 @@ export default function Home() {
               <span className="text-xl">On mobile, video may not load</span>
             </div>
 
-            <h1 className="text-7xl font-bold top-0 font-poet text-slate-100">Welcome on my page</h1>
-            <p className="text-3xl font-poet text-slate-100">Traveling alone like Sam to make my stuff</p>
+            <h1 className="md:text-7xl text-5xl font-bold top-0 font-poet text-slate-100 opacity-80">Welcome on my page</h1>
+            <p className="text-xl md:text-3xl font-poet text-slate-100 opacity-70">Traveling alone like Sam to make my stuff</p>
             <div className="flex flex-col items-center self-center w-full absolute bottom-0">
               <span className="opacity-50">SCROLL DOWN</span>
               <i className="bi bi-chevron-down text-5xl opacity-50" />
@@ -147,9 +147,9 @@ export default function Home() {
             <a href="https://www.youtube.com/watch?v=VAwPiYX6FJs" target="_blank" rel="noopener noreferrer" className="absolute bottom-0 right-0 text-white opacity-50 hover:opacity-100">Video made by Flurdeh</a>
           </div>
 
-          <div className="space-y-8 p-8 bg-gray-600 z-20 w-full md:pr-24 py-12 ">
+          <div className="space-y-8 p-8 bg-gray-600 z-20 w-full md:pr-24 py-12 lg:h-screen">
             <h1 className="text-4xl font-bold text-center border-b-2 pb-3 content-center w-fit mx-auto">About me</h1>
-            <p className="py-8 text-center">Having been immersed in video games since a young age, I naturally gravitated towards software development. With the ambition of creating applications to improve users' lives, I also aspire to develop my own video games, much like independent studios.</p>
+            <p className="py-8 text-center">Having been immersed in video games since a young age, I naturally gravitated towards software development. With the ambition of creating applications to improve users' lives, I also aspire to develop my own video games, like independent studios.</p>
             <div className="flex flex-col items-center justify-start">
               <h3 className="text-4xl font-bold border-b-2 pb-3 mb-8">My Skills</h3>
             
@@ -256,7 +256,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="z-10 flex flex-col justify-start items-center bg-gray-700 md:pr-24 p-8"> 
+          <div className="z-10 flex flex-col lg:h-screen justify-start items-center bg-gray-700 md:pr-24 p-8"> 
             <h4 className="text-4xl text-center my-14 font-bold border-b-2 pb-3 content-center w-fit mx-auto">My Articles</h4>
             <span className="text-center">Take a look at what I write in my spare time<br/>Here are my last articles</span>
             <div className="w-full grid lg:grid-cols-3 gap-4 place-items-center mt-12">
@@ -320,30 +320,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="w-80 group relative h-52 bg-gray-700 flex flex-col justify-center items-start shadow-sm rounded-md border border-slate-600">
-                  <div className="z-20 h-full absolute top-0 bottom-0 right-0 left-0 flex flex-col justify-center items-center opacity-100 duration-300 group-hover:opacity-0">
-                    <h3 className="font-light text-4xl">Article Blog #35</h3>
-                  </div>
-                  <div className="z-10 bg-gray-700 absolute top-0 right-0 left-0 bottom-0 flex flex-row rounded-md">
-                    <img src="https://picsum.photos/300/200" alt="" className="object-fill h-full w-full rounded-md"/>
-                  </div>
-                  <div className="pointer-events-none z-10 flex flex-col justify-around items-start rounded-md h-36 bg-gray-500 py-2 absolute bottom-0 left-0 right-0 px-2 space-y-1 transform-gpu translate-y-36 duration-500 opacity-0 group-hover:opacity-100 group-hover:-translate-y-0">
-                    <h3 className="font-medium">Article Blog #35</h3>
-                    <div className="h-full border-b border-t border-b-slate-400 border-t-slate-400 border-opacity-30 overflow-y-auto">
-                      <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid amet nulla neque reiciendis, repudiandae, nisi eveniet officia minima suscipit impedit aspernatur.</p>
-                    </div>
-                    <div className="flex flex-row justify-end items-center space-x-2 font-thin">
-                      <span>Brua</span>
-                      <span>-</span>
-                      <span>22/01/2023</span>
-                    </div>
-                  </div>
-                </div>
                 
             </div>
 
-            <span className="bg-gray-700 px-4 py-2 my-14">Voir plus</span>
+            <span className="bg-gray-700 px-4 py-2 my-auto">Voir plus</span>
           </div>
 
           <div className="z-10 flex flex-col justify-start items-center bg-gray-600 pt-16 md:pr-24">

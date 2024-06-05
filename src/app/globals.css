@@ -13,6 +13,11 @@
 
 body {
   background-color: black;
+  font-family: 'PoetsenOne-Regular', serif;
+}
+
+main {
+  font-family:'PoetsenOne-Regular', sans-serif;
 }
 
 /*

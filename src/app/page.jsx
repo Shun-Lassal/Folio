@@ -67,10 +67,10 @@ export default function Home() {
 
           <div className="m-4 flex flex-col justify-center items-center">
             <div className="bg-gray-400 bg-opacity-50 h-20 w-20 rounded-lg text-center content-center group relative select-none">
-              <span className="text-6xl font-bold text-center duration-300 font-poet left-4 top-1 absolute">L</span>
-              <span className="text-6xl font-bold text-center duration-300 font-poet text-zinc-600">L</span>
-              <span className="text-5xl font-bold text-center duration-300 font-poet bottom-4 absolute">S</span>
-              <span className="text-5xl font-bold text-center duration-300 font-poet text-zinc-600">S</span>
+              <span className="text-6xl font-bold text-center duration-300 left-4 top-1 absolute">L</span>
+              <span className="text-6xl font-bold text-center duration-300 text-zinc-600">L</span>
+              <span className="text-5xl font-bold text-center duration-300 bottom-4 absolute">S</span>
+              <span className="text-5xl font-bold text-center duration-300 text-zinc-600">S</span>
             </div>
           </div>
 

@@ -67,6 +67,7 @@ const SideBar = () => {
           className="bg-gray-400 bg-opacity-30 h-20 w-20 rounded-lg content-center text-center relative group duration-300"
           onMouseEnter={() => handleMouseEnter(0)}
           onMouseLeave={handleMouseLeave}
+          onClick={() => router.push("/chat")}
         >
           <i className="bi bi-chat text-3xl group-hover:text-5xl duration-300" />
           <span className="absolute text-xl top-5 left-0 right-0 bottom-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-12">Chat</span>
@@ -76,6 +77,7 @@ const SideBar = () => {
           className={`bg-gray-400 bg-opacity-30 h-20 w-20 rounded-lg content-center text-center relative group my-4 duration-300 ${getTranslateClass(1)}`}
           onMouseEnter={() => handleMouseEnter(1)}
           onMouseLeave={handleMouseLeave}
+          onClick={() => router.push("/blog")}
         >
           <i className="bi bi-book text-3xl group-hover:text-5xl duration-300" />
           <span className="absolute text-xl top-5 left-0 right-0 bottom-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-12">Blog</span>
